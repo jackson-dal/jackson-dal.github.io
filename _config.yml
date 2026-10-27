@@ -1,0 +1,21 @@
+title: Jackson Dalton
+description: Electrical Engineering Portfolio
+email: jdalton0926@gmail.com
+github_username: jackson-dal
+linkedin_username: jackson-dalton
+
+theme: minima
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+
+defaults:
+  - scope:
+      type: projects
+    values:
+      layout: page
+
+header_pages:
+  - about.md
